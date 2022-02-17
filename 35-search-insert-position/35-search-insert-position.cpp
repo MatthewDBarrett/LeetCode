@@ -19,10 +19,7 @@ public:
         }
         
         if ( nums[mid] > target)
-            if ( mid == 0)
-                return 0;
-            else
-                return mid;
+            return mid;
         else
             return mid + 1;
     }
