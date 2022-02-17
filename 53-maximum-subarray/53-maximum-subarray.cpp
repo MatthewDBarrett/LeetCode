@@ -11,8 +11,9 @@ public:
             if ( current > count )
                 count = current;     
             
-            if ( count > result )
-                result = count;
+            // if ( count > result )
+            //     result = count;
+            result = max(count, result);
         }
         return result;
     }
