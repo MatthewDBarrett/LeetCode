@@ -7,7 +7,7 @@ public:
             for ( int j = 0; j < mat[i].size(); j++ ) 
                 tempMat.push_back( mat[i][j] );
         
-        vector<vector<int>> transMat(r, vector<int>(c,0));
+        vector<vector<int>> transMat(r, vector<int>(c));
 
         if ( tempMat.size() != r * c )
             return mat;
